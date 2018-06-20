@@ -2,9 +2,9 @@ global dataset;
 dataset = [];
 
 % Dependency configuration
-gurobiPath      = 'D:\utilities\gurobi\win64\matlab';
-ffmpegPath      = 'D:\utilities\ffmpeg\bin\ffmpeg.exe';
-dataset.path    = 'D:\lab\MCMT\final\MCT\Data\'; % local directory to download the dataset
+gurobiPath      = '/opt/gurobi800/linux64/matlab';
+ffmpegPath      = '/usr/bin/ffmpeg';
+dataset.path    = '/vol/MCT/data'; % local directory to download the dataset
 
 % data set parameters (no need to change below this point)
 dataset.cameras = [1 2 5];

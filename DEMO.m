@@ -1,6 +1,6 @@
 clc; close all; clear
 addpath(genpath('utils')); config; mydir = pwd;
-cd('D:\utilities\gurobi\win64\matlab'); gurobi_setup; cd(mydir);
+cd('/opt/gurobi800/linux64/matlab'); gurobi_setup; cd(mydir);
 
 % PARAMETERS
 dataset.frame_range = [56001 61000]; % ~5mins
